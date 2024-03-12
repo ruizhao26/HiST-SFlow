@@ -1,0 +1,25 @@
+data:
+  spift_path: /data/rzhao/scflow_dataset/spift
+  phm_path: /data/rzhao/scflow_dataset/phm
+
+loader:
+  n_epochs: 70
+  crop_size: [320, 448]
+  augment: ['Horizontal', 'Vertical']
+  # pair_step: 1
+  do_flip: True
+  seed: 3600
+
+model:
+  # decay
+  flow_weight_decay: 0.0004
+  flow_bias_decay: 0.0
+
+train:
+  decay_freq: 10
+
+optimizer:
+  solver: Adam
+  lr: 0.0001
+  momentum: 0.9
+  beta: 0.999
