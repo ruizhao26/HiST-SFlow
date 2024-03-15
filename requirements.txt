@@ -6,4 +6,3 @@ tensorboardX
 scipy
 einops
 path
-real_data
