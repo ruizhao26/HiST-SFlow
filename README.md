@@ -75,7 +75,7 @@ We recommended to redirect the output logs by adding `>> hist_sflow.txt 2>&1` to
 If you find this code useful in your research, please consider citing our paper. AAAI version:
 
 ```
-@inproceedings{zhao2022learning,
+@inproceedings{zhao2024optical,
   title={Optical Flow for Spike Camera with Hierarchical Spatial-Temporal Spike Fusion},
   author={Zhao, Rui and Xiong, Ruiqin and Zhang, Jian and Zhang, Xinfeng and Yu, Zhaofei and Huang, Tiejun},
   booktitle={AAAI Conference on Artificial Intelligence (AAAI)},
