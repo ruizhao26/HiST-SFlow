@@ -59,7 +59,7 @@ You can also inference optical flow from real data through `demo.py`
 python3 main.py \ 
 --learning_rate 1e-4 \ 
 --configs ./configs/flow.yml \
---arch cr_rep25_conv1d_v2 \
+--arch hist_sflow \
 --decay_factor 0.8 \
 --vis_path ./vis/hist_sflow \
 --save_name hist_sflow \
